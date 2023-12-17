@@ -97,7 +97,6 @@ img {
 }
 
 .kittens__item {
-  height: 472px;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -109,7 +108,7 @@ img {
 }
 
 .content {
-  padding: 16px;
+  padding: 16px 8px 16px 16px;
 }
 
 .content__heading,
