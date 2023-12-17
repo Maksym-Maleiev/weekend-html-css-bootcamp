@@ -14,10 +14,17 @@ body {
 }
 
 .site-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
   color: #f07f2e;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.67;
   letter-spacing: 0.5px;
+}
+
+.site-nav-list {
+  display: flex;
 }
