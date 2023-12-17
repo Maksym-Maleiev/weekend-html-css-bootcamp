@@ -29,6 +29,16 @@ img {
   margin: 0 auto;
 }
 
+.section {
+}
+
+.section__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+}
+
 .page-header {
   display: flex;
   align-items: center;
@@ -64,4 +74,11 @@ img {
 .site-nav__link:hover,
 .site-nav__link:focus {
   color: #f07f2e;
+}
+
+/* Kittens */
+
+.kittens {
+  display: flex;
+  gap: 40px;
 }
