@@ -9,3 +9,13 @@
 .page-header {
   background-color: tomato;
 }
+
+.site-logo {
+  color: #f07f2e;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+}
