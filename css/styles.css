@@ -8,6 +8,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -21,13 +27,13 @@ body {
 .container {
   width: 944px;
   margin: 0 auto;
-  padding: 0 16px;
 }
 
 .page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .site-logo {
