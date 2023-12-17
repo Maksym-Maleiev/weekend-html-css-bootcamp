@@ -13,6 +13,9 @@ body {
 }
 
 .page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .site-logo {
@@ -30,4 +33,17 @@ body {
 .site-nav {
   display: flex;
   gap: 40px;
+}
+
+.site-nav__link {
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.site-nav__link:hover,
+.site-nav__link:focus {
+  color: #f07f2e;
 }
