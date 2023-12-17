@@ -106,7 +106,8 @@ img {
   padding: 16px;
 }
 
-.content__heading {
+.content__heading,
+.content__text {
   margin-bottom: 8px;
 
   color: #2c2c2c;
@@ -117,5 +118,5 @@ img {
 }
 
 .content__text {
-  color: #2c2c2c;
+  font-weight: 400;
 }
