@@ -8,10 +8,26 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.thumb {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+
+  overflow: hidden;
 }
 
 .list {
@@ -34,6 +50,8 @@ img {
 }
 
 .section__title {
+  margin-bottom: 40px;
+
   font-size: 24px;
   font-weight: 700;
   line-height: 1.67;
@@ -82,4 +100,22 @@ img {
 .kittens {
   display: flex;
   gap: 40px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content__heading {
+  margin-bottom: 8px;
+
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.content__text {
+  color: #2c2c2c;
 }
