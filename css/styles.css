@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .list {
   list-style: none;
 }
@@ -11,7 +15,6 @@
 
 .site-logo {
   color: #f07f2e;
-  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
