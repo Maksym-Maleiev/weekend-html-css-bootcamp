@@ -27,6 +27,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-.site-nav-list {
+.site-nav {
   display: flex;
+  gap: 40px;
 }
