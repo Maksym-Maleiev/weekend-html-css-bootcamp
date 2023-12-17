@@ -103,13 +103,15 @@ img {
 
 .content__heading,
 .content__text {
-  margin-bottom: 8px;
-
   color: #2c2c2c;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 0.5px;
+}
+
+.content__heading {
+  margin-bottom: 8px;
 }
 
 .content__text {
