@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -10,6 +16,12 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 944px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .page-header {
