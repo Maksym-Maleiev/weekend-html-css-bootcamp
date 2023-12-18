@@ -52,6 +52,16 @@ img {
   letter-spacing: 0.5px;
 }
 
+.section__description {
+  margin-bottom: 8px;
+
+  color: #2c2c2c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
 /* Page-header */
 
 .page-header {
@@ -140,7 +150,11 @@ img {
 }
 
 .gallery__item {
-  flex-basis: calc((100% - 6 * 16) / 6);
+  flex-basis: calc((100% - 6 * 16px) / 6);
   margin-top: 16px;
   margin-left: 16px;
+}
+
+.gallery__item > img {
+  border-radius: 16px;
 }
