@@ -104,16 +104,20 @@ img {
 .hero {
   position: relative;
   height: 480px;
-  border-radius: 16px;
+
   background-image: url("/img/hero-bg.jpg");
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-color: #f07f2e;
+  border-radius: 16px;
 }
 
 .greeting {
   position: absolute;
   top: 236px;
   left: 28px;
+
   padding: 24px;
   width: 432px;
   background-color: #0f3f3c;
