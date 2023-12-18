@@ -196,6 +196,9 @@ img {
 }
 
 .social-list__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 8px;
   border-radius: 50%;
 }
@@ -203,4 +206,18 @@ img {
 .social-list__link:hover,
 .social-list__link:focus {
   background-color: #fff;
+}
+
+.social-list__icon {
+  fill: #fff;
+}
+
+/* .social-list__icon:hover,
+.social-list__icon:focus {
+  fill: #f07f2e;
+} */
+
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
+  fill: #f07f2e;
 }
