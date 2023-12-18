@@ -194,3 +194,13 @@ img {
   display: flex;
   gap: 32px;
 }
+
+.social-list__link {
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.social-list__link:hover,
+.social-list__link:focus {
+  background-color: #fff;
+}
