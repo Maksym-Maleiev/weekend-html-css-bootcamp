@@ -44,8 +44,6 @@ img {
 }
 
 .section__title {
-  margin-bottom: 40px;
-
   font-size: 24px;
   font-weight: 700;
   line-height: 1.67;
@@ -106,6 +104,7 @@ img {
 .kittens {
   display: flex;
   gap: 40px;
+  margin-top: 40px;
 }
 
 .kittens__item {
